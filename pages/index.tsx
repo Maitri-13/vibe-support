@@ -70,12 +70,22 @@ export default function Home() {
             <h1 style={{
               fontSize: 'clamp(2.5rem, 5vw, 4rem)',
               fontWeight: '800',
-              marginBottom: '1.5rem',
+              marginBottom: '1rem',
               textShadow: '0 4px 20px rgba(0,0,0,0.3)',
               lineHeight: '1.2'
             }}>
               Your Personal AI Fashion Assistant
             </h1>
+
+            <h2 style={{
+              fontSize: 'clamp(1.5rem, 3vw, 2rem)',
+              fontWeight: '600',
+              marginBottom: '1.5rem',
+              color: '#FFD700',
+              textShadow: '0 2px 10px rgba(0,0,0,0.3)'
+            }}>
+              Never wonder what to wear again
+            </h2>
 
             <p style={{
               fontSize: 'clamp(1.1rem, 2.5vw, 1.3rem)',
